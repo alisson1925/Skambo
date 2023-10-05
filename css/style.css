@@ -1,0 +1,207 @@
+*{
+    border: 0;
+    padding: 0;
+}
+body{
+    width: auto;
+    height: 924px;
+    background-color: #E2CE1A;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+header{
+    background-color: #fefaa1;
+    width: 944px;
+    height: 555px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    font-family: 'Poppins', sans-serif;
+}
+.esquerdo{
+    width: 304px;
+    height: 455px;
+    flex-shrink: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    background-color: #36320A;
+    border-radius: 16px 0px 0px 16px;
+}
+img{
+    width: 148px;
+    height: 91px;
+    flex-shrink: 0;
+    margin-right: 40px;
+}
+.esquerdo>h2{
+    width: 251px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 5px -60px -40px 0;
+}
+.p1{
+    width: 215px;
+    height: 83px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 25px -20px 0 0;
+}
+.esquerdo>button{
+    width: 232px;
+    height: 70px;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: 4px solid #fff;
+}
+.p2{
+    width: 190px;
+    height: 29px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.direito{
+    width: 640px;
+    height: 555px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0px 16px 16px 0px;
+}
+.direito>h1{
+    width: 296px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: -30px;
+}
+.direito>p{
+    width: 224px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10px;
+}
+.input{
+    width: 480px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #e2ce1a;
+    display: flex;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-top: 20px;
+    margin-right: 44px;
+    margin-left: 20px;
+}
+.icon2{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-top: 22px;
+    margin-right: 45px;
+    margin-left: 20px;
+}
+.icon3{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-top: 21px;
+    margin-right: 45px;
+    margin-left: 20px;
+}
+.place{
+    width: 430px;
+    height: 60px;
+    flex-shrink: 0;
+    font-family: 'Poppins';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 16px;
+    margin-left: -85px;
+    padding-left: 50px;
+}
+.place::placeholder{
+    color: rgba(0, 0, 0, 0.60);
+}
+.direito>button{
+    width: 232px;
+    height: 70px;
+    flex-shrink: 0;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #36320a;
+    border-radius: 30px;
+}
+.link1{
+    color: #ffffff;
+    margin-left: -4px;
+    padding: 16px 72px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.link2{
+    color: #ffffff;
+    padding: 18px 47px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
